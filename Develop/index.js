@@ -75,6 +75,44 @@ const questions = [{
     }
 
 },
+//licensing input
+{
+    type:'checkbox',
+    name: 'license',
+    message: 'Pick a license for this project(Required)',
+    choices: ['MIT','Apache 2.0', 'BSD','GPL','None' ],
+    validate: licenseInput =>{
+        if (licenseInput){
+            return true;
+        }else{
+            console.log('Pick a license for your project !');
+            return false;
+        }
+    }
+},
+//github input
+{
+    type: 'input',
+    name: 'github',
+    message: 'Enter your github username (Required)',
+    validate: githubInput =>{
+        if(githubInput){
+            return true;
+        }else{
+            console.log("A github username is required! ");
+            return false;
+        }
+    }
+},
+//email input
+{
+    type:'input',
+    name: 'email',
+    message: 'Enter your email for updates and contact',
+
+},
+    
+
 
 ];
 
