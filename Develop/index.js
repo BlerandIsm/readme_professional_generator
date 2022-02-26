@@ -29,6 +29,10 @@ const questions = [{
             return false ;
         }
     }
+},
+{
+    type: 'input',
+    name: 'content'
 }
 
 ];
