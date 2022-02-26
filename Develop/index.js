@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs');
 const { type } = require('os');
+const { log } = require('console');
 
 // An array of questions for user input
 const questions = [{
@@ -17,6 +18,7 @@ const questions = [{
         }
     } 
 },
+//description input
 {
     type: 'input',
     name: 'description',
@@ -30,10 +32,49 @@ const questions = [{
         }
     }
 },
+//instalation input
 {
     type: 'input',
-    name: 'content'
-}
+    name: 'installation',
+    message: 'Provide an instalin guide for your project. (Required)',
+    validate: installationInput => {
+        if(installationInput){
+            return true;
+        } else{
+            console.log('Please provide installation information about this project');
+            return false;
+        }
+    }
+},
+//usage input 
+{
+    type:'input',
+    name: 'usage',
+    message:'How can the user use this project? (Required)',
+    validate: usageInput => {
+        if(usageInput){
+            return true;
+        } else {
+            console.log('Provide information on how to use the project!');
+            return false;
+        }
+    }
+},
+//contribution input
+{
+    type: 'input',
+    name: 'contributiion',
+    message: 'How and who can contribute on this project? (Required)',
+    validate: contributionInput =>{
+        if(contributionInput){
+            return true;
+        }else{
+            console.log('Please provide information how users can contribute on this project');
+            return false;
+        }
+    }
+
+},
 
 ];
 
