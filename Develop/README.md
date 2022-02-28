@@ -1,9 +1,9 @@
 # sfsd
 
-  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   ## Description:
-  sdfsd
+  dsgwefew
 
   ## Table of Contents
   - [Description](#description)
@@ -14,21 +14,21 @@
   - [Questions](#questions)
 
   ## Installation:
-  fsdf
+  fsfsdfsdg
 
   ## Usage:
-  ef
+  fsddfaef
 
   ## License:
-  This project is cover under the license type BSD
-  [Click here for more information](https://opensource.org/licenses/BSD-2-Clause)
+  This project is cover under the license type MIT
+  [Click here for more information](https://opensource.org/licenses/MIT)
 
   ## Contribution:
-  fsdf
+  asdadas
 
   ## Testing:
-  fsdf
+  dasdaw
 
   ## Questions:
-  - Github: [fdf](https://github.com/fdf)
-  - Email: fsdf 
+  - Github: [dsfsdg](https://github.com/dsfsdg)
+  - Email: dasda 
